@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 const App = () => {
-  const [loanAmount, setLoanAmount] = useState(100000);
-  const [interestRate, setInterestRate] = useState(8.5);
-  const [termYears, setTermYears] = useState(5);
+  const [loanAmount, setLoanAmount] = useState();
+  const [interestRate, setInterestRate] = useState();
+  const [termYears, setTermYears] = useState();
   const [monthlyPayment, setMonthlyPayment] = useState(null);
 
   const calculatePayment = () => {
