@@ -23,10 +23,9 @@ const App = () => {
         <div className="logo">Loan Calculator</div>
         <div className="nav-links">
           <button>HOME</button>
-          <a href="#">EXCHANGE RATES (LIVE)</a>
-          <a href="#">ABOUT</a>
-          <a href="#">ERROR PAGE</a>
-          <div className="toggle"></div>
+          <button>EXCHANGE RATES (LIVE)</button>
+          <button>ABOUT</button>
+          <button>HOME</button>
         </div>
       </div>
 
